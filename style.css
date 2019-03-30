@@ -1,0 +1,190 @@
+            .header {
+            padding: 10px 0;
+            position: fixed;
+            left: 0;
+            top: 0;
+            right: 0;
+            z-index: 997;
+            background: rgba(0, 255, 34, 0.315)
+        }
+        .menu-nav-item {
+            list-style: none;
+        }
+        .menu-nav-link {
+            text-decoration: none;
+            color: #fff;
+            font-weight: 400;
+            font-size: 12px;
+            text-transform: uppercase;
+            display: inline-block;
+            outline: none;
+            padding: 20px;    
+        }
+        .section_banner {
+            background: url(chary.jpg);
+            background-size: cover;
+            
+        }
+        .contaniner {
+            max-width: 1140px;
+            padding: 0 15px;
+            margin: 0 15px;
+        }
+        .banner {
+            margin-top: 120px;
+            padding: 20px 0;
+        }
+        .banner-text-head {
+            color: white;
+            font-size: 48px;
+            text-align: center;
+        }
+        .banner-text-body {
+            text-align: center;
+            padding: 10px 0;
+        }
+        .banner-text-body a {
+            text-decoration: none;
+            color: white;
+            font-size: 14px;
+        }
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .section_main  {
+            padding: 120px 0;
+
+        }  
+        .section_header {
+            text-align: center;
+        } 
+        h1 {
+            font-size: 36px;
+            color: blue;
+            text-align: center;
+        }
+
+        .card {
+            min-width: 255px;
+            text-align: center;
+            border-radius: 10px;
+            background-color: aquamarine;   
+                }
+        .card-img-wrap {
+            padding: 40px;
+            border-bottom: 1px solid #eee;
+        }
+        .card-detailes {
+            padding: 20px;
+            background-color: #f9f9ff;
+        }
+        h4 {
+            font-size: 18px;
+        }
+        .card-button {
+            display: inline-block;
+            text-decoration: none;
+            margin-top: 10px;
+            background: #fff;
+            color: pink;
+            line-height: 42px;
+            padding-left: 30px;
+            padding-right: 30px;
+            border: 1px solid black;
+            cursor: pointer;
+            position: relative;
+            text-transform: uppercase;
+        }
+
+        .card-button:hover {
+            background: transparent;
+            color: white;
+            border-color: #8a90ff;
+            background-image: linear-gradient(0deg, rgb(0, 238, 255) 0%, #4240c0 100%)
+        }
+
+        .footer {
+            background: url(reb.jpg);
+            background-size: cover;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        .footer-block {
+            color: white;
+            padding-top: 50px;
+        }
+        .footer-text {
+            padding: 0 15px; 
+        }
+        .menu {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .menu-logo {
+            display: flex;
+            align-items: center;
+
+        }
+        .menu-logo-link {
+            display: block;
+            text-decoration: none;
+            width: 50%;
+
+        }
+        .menu-nav-container {}
+
+        .menu-nav {
+            display: flex;
+            flex-direction:  row;
+        }
+        .card-contanier {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap; 
+        }
+        .card-wrap {
+            padding: 15px;
+            width: 20%
+        }
+        .brand-contanier {
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 120px;
+            padding-top: 50px;
+        }
+        .brand {
+            padding-right: 30px;
+            padding-left: 10px;
+            flex: 3;
+            order: 2;
+            padding: 10px;
+        }
+
+        .brand img {
+            max-width: 270px;
+            height: 400px;
+            padding-right: 10px;
+        }
+
+        .brand img:hover {
+            filter: grayscale(0);
+        }
+        
+        .text_pod_head {
+            color: aquamarine
+        }
+
+
+        h2 {
+            color: #828;
+        }
+        .logo-img {
+            width: 28%;
+            margin-left: 20px;
+        }
+
+        .card-img {
+        width: 80%;
+        }
